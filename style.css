@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Poppins", "Trebuchet MS", sans-serif;
+  background: #3a2923;
+  color: #f7f9c5;
+  line-height: 1.8;
+}
+
+.page-frame {
+  max-width: 980px;
+  margin: 1.8rem auto;
+  border: 1px solid #6a4c3e;
+  background: #443028;
+  border-radius: 14px;
+}
+
+.container {
+  width: 94%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background: #5a3a31;
+  color: #f7f9c5;
+  padding: 1.1rem 0;
+  border-radius: 14px 14px 0 0;
+  border-bottom: 1px solid #3a2923;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-family: "Pacifico", "Baloo 2", "Fredoka", "Poppins", system-ui, sans-serif;
+  font-size: 2.1rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.layout {
+  padding: 1.6rem 0 1.8rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post {
+  background: #5a4541;
+  border-radius: 10px;
+  padding: 1.3rem 1.4rem;
+  border: 1px solid #84714f;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.32);
+}
+
+.post-title {
+  margin: 0 0 0.5rem;
+  font-family: "Fredoka", "Baloo 2", "Poppins", system-ui, sans-serif;
+  font-size: 1.55rem;
+  color: #91aec1;
+}
+
+.post-meta {
+  margin: 0 0 0.8rem;
+  font-size: 0.85rem;
+  color: #e1d7b2;
+  font-style: italic;
+}
+
+.post-excerpt {
+  margin: 0.8rem 0;
+  color: #f7f9c5;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .post {
+    padding: 1rem 1.1rem;
+  }
+}
+
+/* === Heading Font Upgrade === */
+.logo,
+.post-title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.logo {
+  font-size: 2.1rem;
+}
+
+.post-title {
+  font-size: 1.6rem;
+  color: #91aec1;
+}
